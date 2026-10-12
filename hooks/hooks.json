@@ -1,0 +1,29 @@
+{
+  "modules": ["./register.tsx"],
+  "hooks": {
+    "Stop": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "uv run --no-project --quiet --with textstat --with wordfreq \"${CLAUDE_PLUGIN_ROOT}/skills/ironman/scripts/stop_hook.py\"",
+            "timeout": 20,
+            "statusMessage": "ironman readability check"
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/skills/ironman/scripts/prompt_hook.py\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}

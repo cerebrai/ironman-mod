@@ -1,0 +1,11 @@
+{
+  "max_fk_grade": 9.0,
+  "zipf_rare_cutoff": 3.0,
+  "soft_word_guide": 200,
+  "soft_avg_sentence_guide": 20,
+  "min_prose_words_to_check": 25,
+  "skip_if_code_ratio_above": 0.6,
+  "max_retries_per_turn": 0,
+  "default_mode": "discuss",
+  "recent_user_prompts": 5
+}

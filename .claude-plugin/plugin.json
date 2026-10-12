@@ -1,0 +1,11 @@
+{
+  "name": "ironman",
+  "version": "0.1.0",
+  "description": "Work with Claude like Tony Stark works with JARVIS: short plain-language turns, every code block explained and approved before it is written, a mode band above the prompt and a side pane that shows the plan.",
+  "author": { "name": "cerebrai", "url": "https://github.com/cerebrai" },
+  "homepage": "https://github.com/cerebrai/ironman-mod",
+  "repository": "https://github.com/cerebrai/ironman-mod",
+  "license": "MIT",
+  "keywords": ["mentor", "pair-programming", "plain-language", "side-pane", "mermaid"],
+  "types": "./types/index.d.ts"
+}

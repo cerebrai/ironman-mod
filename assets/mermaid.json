@@ -1,0 +1,29 @@
+{
+ "theme": "base",
+ "themeVariables": {
+  "darkMode": true,
+  "background": "transparent",
+  "fontFamily": "Inter, Helvetica, Arial, sans-serif",
+  "fontSize": "11px",
+  "primaryColor": "#1e2a3a",
+  "primaryTextColor": "#e8eef5",
+  "primaryBorderColor": "#4fc3f7",
+  "secondaryColor": "#2a2338",
+  "tertiaryColor": "#1f2f26",
+  "lineColor": "#9fb3c8",
+  "edgeLabelBackground": "transparent",
+  "clusterBkg": "#161d27",
+  "clusterBorder": "#3b4a5c"
+ },
+ "flowchart": {
+  "curve": "basis",
+  "padding": 6,
+  "nodeSpacing": 16,
+  "rankSpacing": 22,
+  "htmlLabels": true,
+  "useMaxWidth": false,
+  "wrappingWidth": 120
+ },
+ "themeCSS": ".node rect, .node polygon, .node circle, .node path { filter: none !important; stroke-width: 1.2px; } .node rect { rx: 8px; ry: 8px; } .edgeLabel, .edgeLabel p, .edgeLabel span, .labelBkg { background: transparent !important; background-color: transparent !important; } .edgeLabel rect { fill: transparent !important; } .edgeLabel { color: #c9d6e3; font-size: 10px; } .edgeLabels .label { transform: translate(0.9em, -0.2em); } .flowchart-link { stroke-width: 1px; } marker path { transform: scale(0.6); transform-origin: center; transform-box: fill-box; }",
+ "fontSize": 11
+}

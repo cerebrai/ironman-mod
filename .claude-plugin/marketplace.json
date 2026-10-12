@@ -1,0 +1,15 @@
+{
+  "name": "ironman-mod",
+  "description": "The ironman mod for Claude Code: you and Claude build together, one approved piece at a time.",
+  "owner": {
+    "name": "cerebrai",
+    "url": "https://github.com/cerebrai"
+  },
+  "plugins": [
+    {
+      "name": "ironman",
+      "source": "./",
+      "description": "Human-in-the-loop pair work with Claude: plain words, approve-then-write code, mode band and plan pane."
+    }
+  ]
+}
