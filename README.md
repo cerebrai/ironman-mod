@@ -8,7 +8,7 @@ A Claude Code mod for people who want to stay in the room.
 
 ironman is a revolt against AI automation where you run a thousand agents and go away to sip coffee. You come back to a pile of code you never read.
 
-It is for those who work like Tony Stark. Stark does not hand the suit to JARVIS and leave. He stands in the workshop, JARVIS answers in short plain sentences, and each piece of the suit gets built while Stark watches, asks, and says yes or no. AI and human work in close harmony, augmenting each other without losing focus.
+It is for those who work like Tony Stark. AI and human work in close harmony, augmenting each other without losing focus.
 
 ironman makes Claude work that way.
 
