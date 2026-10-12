@@ -1,4 +1,4 @@
-<p align="center"><img src="docs/banner.svg" alt="ironman: you and Claude, side by side" width="720"></p>
+<p align="center"><img src="docs/ironman.png" alt="ironman" width="220"></p>
 
 # ironman
 
@@ -20,16 +20,6 @@ ironman makes Claude work that way.
 - **Shows where you are.** A small band above the prompt shows that ironman is on and the current mode. A side pane shows the architecture diagram, then the plan, with the piece being built lit up.
 
 ## How it works
-
-```mermaid
-flowchart TD
-  U[You] -->|ironman on| S[Skill]
-  S -->|draft| C[Draft check]
-  C -->|pass| U
-  S -->|tools| M[Mod]
-  M --> B[Mode band]
-  M --> P[Side pane]
-```
 
 ironman has two parts.
 
@@ -101,7 +91,7 @@ hooks/            the mod: register.tsx, band.tsx, pane.tsx, hooks.json
 types/            types for the mod's saved state
 assets/           mermaid style for the pane diagrams
 skills/ironman/   the skill: SKILL.md, references/, scripts/, word list, config
-docs/             the banner
+docs/             the logo
 ```
 
 ## Development
